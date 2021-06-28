@@ -19,4 +19,5 @@ The pipeline is demonstrated as follows:
 * Use cv2.bitwise_or() function to superimpose the virtual image on the ROI of the target image.
 ![Final Output](/Warped_Images/Final_Warped_Image.png?raw=true)
 
-## Note: The perspective transformation depends upon the order of the selection of coordinates during mouse call back, which in turns impact the final orientation of the warped image. The reason being the homography is calculated based upon the two set of points from the source and target image. Any deviation from the order of points between the source and target image produces a differnt homography matrix which results in a differnt perspective. 
+### Note: 
+The perspective transformation depends upon the order of the selection of coordinates during mouse call back, which in turns impact the final orientation of the warped image. The reason being the homography is calculated based upon the two set of points from the source and target image. Any deviation from the order of points between the source and target image produces a differnt homography matrix which results in a differnt perspective. 
